@@ -1,0 +1,28 @@
+/*BUILTIN*/
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: Arial;
+}
+
+h1{
+  font-weight: 900;
+}
+
+h2{
+  font-weight: bold;
+}
+
+p{
+  font-weight: normal;
+}
+/**/
+
+/*CLASSES*/
+.box{
+ background-color: pink;
+ 
+}
+/**/
