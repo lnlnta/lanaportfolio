@@ -5,6 +5,8 @@
 
 html{
   scroll-behavior: smooth;
+  background-image: url("https://imgur.com/KLUHTR8.png");
+  background-size: cover;
 }
 
 body{
@@ -32,6 +34,7 @@ a{
   padding: 0.3em;
   border-radius: 2px;
   transition: 150ms ease-in-out;
+  margin-bottom: 0.2em;
 }
 
 a:hover{
@@ -68,5 +71,9 @@ a:hover{
   float: left;
   position: fixed;
   transform: translate(-18em, -13em);
+}
+
+#box_main{
+  padding-bottom: 2em;
 }
 /**/
