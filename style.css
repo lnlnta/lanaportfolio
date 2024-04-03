@@ -1,10 +1,15 @@
 /*BUILTIN*/
+:root{
+  background-color: white;
+}
+
 html{
   scroll-behavior: smooth;
 }
 
 body{
   font-family: Arial;
+  text-align: center;
 }
 
 h1{
@@ -13,16 +18,55 @@ h1{
 
 h2{
   font-weight: bold;
+  color: white;
 }
 
 p{
   font-weight: normal;
+  color: white;
+}
+
+a{
+  color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0.3em;
+  border-radius: 2px;
+  transition: 150ms ease-in-out;
+}
+
+a:hover{
+  font-size: 18px;
+  transition: 150ms ease-in-out;
 }
 /**/
 
 /*CLASSES*/
 .box{
- background-color: pink;
- 
+ background: rgb(120,0,255);
+ background: linear-gradient(0deg, rgba(120,0,255,1) 0%, rgba(162,0,255,1) 50%, rgba(226,0,255,1) 100%);
+ margin-left: 20em;
+ margin-right: 20em;
+ padding: 1em;
+ border-radius: 12px;
+}
+
+.text_subtitle{
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.text_aclaration{
+  margin-left: 10em;
+  margin-right: 10em;
+  font-size: 12px;
+  font-style: oblique;
+}
+/**/
+
+/*IDs*/
+#box_left{ /*Caja de la izquierda que es el índice*/
+  float: left;
+  position: fixed;
+  transform: translate(-18em, -13em);
 }
 /**/
