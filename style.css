@@ -64,6 +64,18 @@ a:hover{
   font-size: 12px;
   font-style: oblique;
 }
+
+.text_subtitle{
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.text_aclaration{
+  margin-bottom: 2em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
 /**/
 
 /*IDs*/
